@@ -1,7 +1,6 @@
 /* General Styles */
 body {
-    /* background-color: #1a1a1a; */
-    background-color: white;
+    background-color: #1a1a1a;
     color: white;
     font-family: Arial, sans-serif;
     display: flex;
@@ -12,7 +11,7 @@ body {
 }
 
 /* Centered Container */
-.main {
+#main {
     text-align: center;
     width: 90%;
     max-width: 400px;
@@ -24,10 +23,11 @@ h1 {
     margin-bottom: 10px;
 }
 
-/* Emoji */
+/* Image (Centered and Resized) */
 img {
-    font-size: 60px;
-    margin: 10px 0;
+    width: 100px;
+    height: auto;
+    margin: 15px 0;
 }
 
 /* Description */
@@ -39,7 +39,7 @@ p {
 }
 
 /* Buy Button */
-button {
+#buy {
     background-color: white;
     color: green;
     font-size: 18px;
@@ -54,7 +54,7 @@ button {
 }
 
 /* Hover effect (for desktop) */
-button:hover {
+#buy:hover {
     background-color: #f0f0f0;
 }
 
@@ -64,15 +64,15 @@ button:hover {
         font-size: 20px;
     }
     
-    .emoji {
-        font-size: 50px;
+    img {
+        width: 80px;
     }
     
     p {
         font-size: 14px;
     }
     
-    button {
+    #buy {
         font-size: 16px;
         padding: 12px;
     }
