@@ -77,3 +77,9 @@ p {
         padding: 12px;
     }
 }
+
+
+#form {
+    display: none;
+    text-align: center;
+}
